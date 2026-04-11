@@ -1,0 +1,100 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="240dp"
+    android:height="240dp"
+    android:viewportWidth="240"
+    android:viewportHeight="240">
+    <!-- Centering and scaling the icon to fit within the 160dp "safe zone" of the Splash Screen API -->
+    <group
+        android:pivotX="130"
+        android:pivotY="102"
+        android:scaleX="0.75"
+        android:scaleY="0.75"
+        android:translateX="-10"
+        android:translateY="18">
+        <path
+            android:pathData="M93.87,133C93.87,131.9 94.76,131 95.87,131H108.46C109.56,131 110.46,131.9 110.46,133V187.41H93.87V133Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="93.87"
+                    android:startY="131"
+                    android:endX="93.87"
+                    android:endY="187.41"
+                    android:type="linear">
+                    <item android:offset="0" android:color="#FF176B87"/>
+                    <item android:offset="1" android:color="#FF86B6F6"/>
+                </gradient>
+            </aapt:attr>
+        </path>
+        <path
+            android:pathData="M150.27,133C150.27,131.9 151.16,131 152.27,131H164.86C165.96,131 166.86,131.9 166.86,133V187.41H150.27V133Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="150.27"
+                    android:startY="131"
+                    android:endX="150.27"
+                    android:endY="187.41"
+                    android:type="linear">
+                    <item android:offset="0" android:color="#FF176B87"/>
+                    <item android:offset="1" android:color="#FF86B6F6"/>
+                </gradient>
+            </aapt:attr>
+        </path>
+        <path
+            android:pathData="M64,202L64,189.41A2,2 0,0 1,66 187.41L194.73,187.41A2,2 0,0 1,196.73 189.41L196.73,202A2,2 0,0 1,194.73 204L66,204A2,2 0,0 1,64 202z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="64"
+                    android:startY="204"
+                    android:endX="196.73"
+                    android:endY="204"
+                    android:type="linear">
+                    <item android:offset="0" android:color="#FF176B87"/>
+                    <item android:offset="1" android:color="#FF86B6F6"/>
+                </gradient>
+            </aapt:attr>
+        </path>
+        <path
+            android:pathData="M112.33,0.51C112.51,0.19 112.84,0 113.2,0H146.74C147.1,0 147.43,0.19 147.61,0.51L160.81,23.71C161.08,24.2 161.7,24.36 162.18,24.08L173.57,17.51C174.05,17.23 174.66,17.4 174.93,17.88L177.98,23.15C178.11,23.38 178.15,23.65 178.08,23.9L170.21,53.27C170.06,53.81 169.51,54.12 168.98,53.98L139.61,46.11C139.36,46.04 139.14,45.88 139.01,45.65L135.96,40.38C135.69,39.9 135.85,39.29 136.33,39.01L147.46,32.58C147.93,32.31 148.1,31.7 147.82,31.22L138.89,15.51C138.71,15.19 138.38,15 138.02,15H121.93C121.57,15 121.23,15.19 121.06,15.51L117.69,21.43C117.41,21.92 116.8,22.08 116.32,21.81L105.06,15.31C104.58,15.03 104.42,14.42 104.69,13.94L112.33,0.51Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="104.2"
+                    android:startY="0"
+                    android:endX="104.2"
+                    android:endY="54.24"
+                    android:type="linear">
+                    <item android:offset="0" android:color="#FF176B87"/>
+                    <item android:offset="1" android:color="#FF86B6F6"/>
+                </gradient>
+            </aapt:attr>
+        </path>
+        <path
+            android:pathData="M169.57,67.45C169.09,67.73 168.93,68.33 169.2,68.81L172.47,74.57C172.65,74.87 172.65,75.24 172.48,75.55L164.8,89.48C164.62,89.8 164.29,90 163.92,90H145.97C145.42,90 144.97,89.55 144.97,89V76C144.97,75.45 144.52,75 143.97,75H137.88C137.62,75 137.37,75.11 137.18,75.29L115.68,96.79C115.29,97.18 115.29,97.82 115.68,98.21L137.18,119.71C137.37,119.89 137.62,120 137.88,120H143.97C144.52,120 144.97,119.55 144.97,119V106C144.97,105.45 145.42,105 145.97,105H172.78C173.15,105 173.48,104.8 173.66,104.48L189.67,75.43C189.84,75.13 189.84,74.76 189.66,74.46L182.2,61.32C181.92,60.84 181.31,60.67 180.83,60.95L169.57,67.45Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="114.97"
+                    android:startY="60.45"
+                    android:endX="114.97"
+                    android:endY="120"
+                    android:type="linear">
+                    <item android:offset="0" android:color="#FF176B87"/>
+                    <item android:offset="1" android:color="#FF86B6F6"/>
+                </gradient>
+            </aapt:attr>
+        </path>
+        <path
+            android:pathData="M95.14,89.48C95.32,89.8 95.66,90 96.02,90H102.72C103.27,90 103.72,90.45 103.72,91V104C103.72,104.55 103.27,105 102.72,105H87.16C86.8,105 86.46,104.8 86.29,104.48L70.27,75.43C70.1,75.13 70.1,74.76 70.28,74.46L83.31,51.53C83.59,51.05 83.42,50.44 82.94,50.17L71.38,43.49C70.9,43.21 70.73,42.6 71.01,42.12L74.05,36.85C74.18,36.62 74.4,36.46 74.66,36.39L104.03,28.52C104.56,28.37 105.11,28.69 105.25,29.22L113.12,58.59C113.19,58.85 113.16,59.12 113.02,59.35L109.98,64.62C109.7,65.1 109.09,65.27 108.61,64.99L97.67,58.67C97.19,58.39 96.57,58.56 96.3,59.04L87.47,74.57C87.3,74.87 87.29,75.24 87.46,75.55L95.14,89.48Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="70"
+                    android:startY="28.26"
+                    android:endX="70"
+                    android:endY="105"
+                    android:type="linear">
+                    <item android:offset="0" android:color="#FF176B87"/>
+                    <item android:offset="1" android:color="#FF86B6F6"/>
+                </gradient>
+            </aapt:attr>
+        </path>
+    </group>
+</vector>
