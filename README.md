@@ -28,5 +28,33 @@ Currently, the model is trained to detect and classify common plastic types: **H
 ### Installation
 
 1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/yourusername/RecycleNet.git](https://github.com/yourusername/RecycleNet.git)
+
+        git clone https://github.com/yourusername/RecycleNet.git
+
+2. **Add the PyTorch Model:**
+   The application relies on a custom trained YOLO model. You must place your exported PyTorch Lite model into the assets folder before building.
+   * Rename your model to `best.ptl`.
+   * Place it in the following directory: `app/src/main/assets/best.ptl`.
+   *(Note: If the `assets` folder does not exist, create it).*
+
+3. **Build and Run:**
+   Sync the Gradle files and run the application on your physical device. 
+
+## 🧠 How It Works
+
+1. **Model Loading:** The `ModelRunner` class lazily loads the `best.ptl` model from the device's storage on first use.
+2. **Image Preprocessing:** Images (whether from CameraX or the Gallery) are resized to `640x640` and converted into a normalized `Float32Tensor` as expected by standard YOLO architectures.
+3. **Inference & Post-processing:** The model outputs a tensor containing bounding box coordinates `[x1, y1, x2, y2]`, confidence scores, and class IDs. The app filters out predictions below the confidence threshold and maps them back to the original image dimensions for the UI overlay.
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! 
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📄 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
